@@ -1,8 +1,8 @@
-**SQL Queries: Write and execute the following SQL queries on the dataset:
+-- SQL Queries: 
+-- Write and execute the following SQL queries on the dataset:
 ○ Count the total number of records in the dataset.
-○ Find the sum or average of a numerical column (e.g., sales, prices, scores).
-○ Filter the dataset based on a condition (e.g., nd all records where a column
-meets a specic threshold or value).**
+○ Find the sum or average of a numerical column 
+○ Filter the dataset based on a condition 
 
 -- Creating Database to import data in it
 create database Finance;
