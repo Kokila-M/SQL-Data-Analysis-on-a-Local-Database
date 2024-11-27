@@ -1,5 +1,36 @@
 select * from finance.financialdata;
 
+-- create table before import dataset into database 
+CREATE TABLE FinancialData (
+    Income FLOAT,
+    Age INT,
+    Dependents INT,
+    Occupation VARCHAR(50),
+    City_Tier VARCHAR(10),
+    Rent FLOAT,
+    Loan_Repayment FLOAT,
+    Insurance FLOAT,
+    Groceries FLOAT,
+    Transport FLOAT,
+    Eating_Out FLOAT,
+    Entertainment FLOAT,
+    Utilities FLOAT,
+    Healthcare FLOAT,
+    Education FLOAT,
+    Miscellaneous FLOAT,
+    Desired_Savings_Percentage FLOAT,
+    Desired_Savings FLOAT,
+    Disposable_Income FLOAT,
+    Potential_Savings_Groceries FLOAT,
+    Potential_Savings_Transport FLOAT,
+    Potential_Savings_Eating_Out FLOAT,
+    Potential_Savings_Entertainment FLOAT,
+    Potential_Savings_Utilities FLOAT,
+    Potential_Savings_Healthcare FLOAT,
+    Potential_Savings_Education FLOAT,
+    Potential_Savings_Miscellaneous FLOAT);
+    
+
 -- total count for all records
 select count(*) from financialdata ;
 
